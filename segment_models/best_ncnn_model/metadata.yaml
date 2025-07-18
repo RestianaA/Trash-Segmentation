@@ -1,0 +1,23 @@
+description: Ultralytics YOLO11n-seg model trained on /content/Waste-In-Instance-Segmentation-5/data.yaml
+author: Ultralytics
+date: '2025-06-16T22:13:23.820894'
+version: 8.3.155
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: segment
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: Electronics
+  1: Glass
+  2: Metal
+  3: Organic
+  4: Paper
+  5: Plastic
+args:
+  batch: 1
+  half: false
+channels: 3
